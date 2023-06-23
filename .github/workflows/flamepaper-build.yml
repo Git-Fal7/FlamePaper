@@ -44,6 +44,11 @@ jobs:
         git config --global user.email "you@example.com"
         git config --global user.name "Your Name"
         chmod +x ./build.sh
+        chmod +x ./remap.sh
+        chmod +x ./decompile.sh
+        chmod +x ./init.sh
+        chmod +x ./newApplyPatches.sh
+        chmod +x ./newRebuildPatches.sh
         ./build.sh
 
     # An artifact is generated in a compressed file according to each JDK build version.
